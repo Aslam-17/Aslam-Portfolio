@@ -2,22 +2,38 @@
 
 body{
     text-align: center;
-    font-family: "Irish Grover", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
     
-        
 }
 .Title{
-    color: #D4AF37;
+    color: #B8860B;
     padding-top: 200px;
-    
+    font-family: "Irish Grover", sans-serif;
 }
 h1{
     font-size: 6rem;
     
 }
-.Aslam
-
-
+h2{
+    padding-bottom: 10px;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.Intro{
+    width: 30%;
+    margin: auto;
+    color: #D1D1D1;
+}
+.Aslam{
+    color: #D4AF37;
+}
 .Hero{
     background-image: url("./Asset/image.png");
     height: 100vh;
@@ -26,8 +42,103 @@ h1{
     background-repeat: no-repeat;
     
 }
+.Resume{
+    background-color: #393E46;
+}
+.Skills{
+    background-color: #948979;
+}
+.Aboutme{
+    background-color: #DFD0B8;
+}
+.Contactme{
+    background-color: #000000;
+    padding: 50px;
+    
+}
+.Section{
+    padding: 20px;
+    padding-bottom: 20px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
 
 html,body{
     margin: 0;
     padding: 0;
+}
+.Pic{
+      width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;   /* adds a white border */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* adds soft shadow */
+}
+img{
+    width: 400px;
+    
+}
+.Image{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.SImg{
+    max-width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+a{
+    margin: 10px 20px;
+    color: #545151;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.ResumeH2{
+    color: #F1F1F1;
+}
+.Skillsh2{
+    color: #1E1E1E;
+}
+.Skills h3{
+    color: #2E2E2E;
+}
+.Skills p{
+    color: #3B3B3B;
+}
+.Aboutme h2{
+    color: #2B2B2B;
+}
+.Aboutme p{
+    color: #3E3E3E;
+}
+.copyright{
+    margin-top: 50px;
+    color: #6c6c68;
+}
+.Aboutme hr{
+    margin-top: 50px;
+}
+.btn {
+    background: #11cdd4;
+    
+    background-image: linear-gradient(to bottom, #051e1f, #292b10);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    text-decoration: none;
 }
